@@ -10,8 +10,8 @@ jobs:
       # Runs the specified commands commands to get Ultraviolet-Node running.
       - name: run ultraviolet
         run: |
-          git clone https://github.com/ligmanit/Incognito-Litee
-          cd Incognito-Litee
+          git clone https://github.com/Miner49ur/uv1
+          cd uv1
           npm install
           screen -dm npm start
       - name: tunnel and expose to web
